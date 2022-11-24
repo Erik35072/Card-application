@@ -1,5 +1,6 @@
 import { CaseReducer, createSlice, PayloadAction, SliceCaseReducers } from "@reduxjs/toolkit";
-import { getRandomNumber } from "src/providers/lib";
+// source
+import { getRandomNumber } from "providers/lib";
 
 export type Card = {
   content: number;
