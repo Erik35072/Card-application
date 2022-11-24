@@ -11,8 +11,8 @@ function App() {
 
   return (
     <Layout>
-      <Box>
-        <Grid container p={2} spacing={2}>
+      <Box sx={{ height: "100%" }}>
+        <Grid container p={2} rowGap={2} columnSpacing={2} sx={{ height: "100%", overflow: "auto" }}>
           {cards.map((card, index) => (
             <Grid item key={`card-with-random-number-${card.content + index}`} xs={12} sm={6} md={4} xl={3}>
               <Card id={index} content={card.content} />
