@@ -12,7 +12,7 @@ function Header() {
   const sortCards = () => dispatch(sort());
 
   return (
-    <AppBar sx={{ p: 1, minHeight: "8vh", bgcolor: "primary.main", position: "relative" }}>
+    <AppBar className="flex-center" sx={{ p: 1, minHeight: "8vh", bgcolor: "primary.main", position: "relative" }}>
       <Grid container rowGap={2} columnSpacing={2}>
         <Grid item>
           <Button onClick={addNewCard}>Add new card</Button>
