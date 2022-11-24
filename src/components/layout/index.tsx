@@ -1,5 +1,6 @@
-import { Grid } from "@mui/material";
 import { ReactNode } from "react";
+// components
+import { Grid } from "@mui/material";
 import Footer from "./footer";
 import Header from "./header";
 import Instructions from "./instructions";
